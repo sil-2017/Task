@@ -1,0 +1,63 @@
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.head > p:first-child{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.head > p:last-child{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #805AD5;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+  }
+
+  th,td {
+    text-align: center;
+    border-bottom: 1px solid #3B3D50;
+  }
+
+  td {
+    text-align: center;
+    border-bottom: 1px solid #3B3D50;
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #ECECEC;
+  }
+
+  td > img{
+    margin-right: 5px;
+  }
+
+  td:nth-of-type(4){
+    color: #34D35C;
+  }
+
+  th {
+    padding: 15px;
+    background: #272E3C;
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 15px;
+    color: #FFFFFF;
+  }
+
